@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": "d:\\work\\reactive\\webflux\\yelp_academic_dataset_business_small_4.txt"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReactiveApplication",
+            "request": "launch",
+            "mainClass": "com.ps.demo.reactive.ReactiveApplication",
+            "projectName": "reactive"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReactiveExamples",
+            "request": "launch",
+            "mainClass": "com.ps.demo.reactive.ReactiveExamples",
+            "projectName": "reactive",
+            "args": "d:\\work\\reactive\\webflux\\yelp_academic_dataset_business_small_4.txt"
+        }
+    ]
+}
